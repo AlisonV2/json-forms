@@ -1,11 +1,13 @@
 import './App.css';
 import Data from "./data.json";
-import CustomInput from "./components/custom-input.component";
+import CustomForm from "./components/custom-form.component";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <div className="App">
-      <CustomInput {...Data} />
+      <CustomForm {...Data} />
     </div>
   );
 }
