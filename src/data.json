@@ -1,0 +1,11 @@
+{
+    "email": "Email",
+    "service" : [
+        "Developpement", 
+        "Marketing", 
+        "Commerce", 
+        "Produit", 
+        "Finance", 
+        "Autre"
+    ]
+}
