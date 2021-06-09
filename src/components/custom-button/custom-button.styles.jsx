@@ -5,7 +5,7 @@ export const CustomButtonContainer = styled.div`
     flex-direction: column;
     align-items: center;
 `
-export const CustomButton = styled.button`
+export const CustomStyledButton = styled.button`
 background-color: black;
   color: white;
   border: none;

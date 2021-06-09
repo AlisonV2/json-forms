@@ -1,8 +1,8 @@
 import React from "react";
 import Form from 'react-bootstrap/Form';
 
-import {CustomButton, CustomButtonContainer} from "../styles/custom-button.styles";
-import {FormContainer} from "../styles/custom-form.styles";
+import CustomButton from "../../components/custom-button/custom-button.component";
+import {FormContainer} from "./custom-form.styles";
 
 const CustomForm = ({ email, options }) => {
   return (
@@ -21,9 +21,7 @@ const CustomForm = ({ email, options }) => {
                 ))}
             </Form.Control>
           </Form.Group>
-          <CustomButtonContainer>
-            <CustomButton>Envoyer</CustomButton>
-          </CustomButtonContainer>
+          <CustomButton>Envoyer</CustomButton>
       </Form>
     </FormContainer>
   );
